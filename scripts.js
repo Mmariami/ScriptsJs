@@ -70,3 +70,11 @@ fruits.pop();
 fruits.shift();
 console.log(fruits.length);
 
+// task 9 //
+ let CarsMassive =['audi','bmw','lexus','volkswagen','ferrary','bently'];
+ for(z=2;z<CarsMassive.length;z++){
+     console.log(CarsMassive[z]);
+ }
+ let NewMassive = CarsMassive.slice(1,4);
+ console.log(NewMassive);
+
