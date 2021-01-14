@@ -30,3 +30,19 @@ var saxeli = ['mariami', 'nata', 'kristina', 'ana', 'gio'];
 for (let y =0; y <saxeli.length; y++) if (saxeli[y].length > 3) {
     console.log (saxeli[y]);
 }
+
+// task 3 //
+
+let NumbersMassive = [2,3,55,109,708,48,11,79];
+for (let n = 0; n < NumbersMassive.length; n++) {
+    if (NumbersMassive[n] % 2 == 0) {
+        console.log(NumbersMassive[n]);
+    } 
+}
+// 3.2 // 
+
+for (let n = 0; n < NumbersMassive.length; n++) {
+    if (NumbersMassive[n] % 2 == 1) {
+        console.log(NumbersMassive[n]);
+    } 
+}
