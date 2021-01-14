@@ -56,3 +56,17 @@ console.log(massive.length);
 massive.shift();
 massive.pop();
 console.log(massive);
+
+// task 8 // 
+
+var fruits = ['ბანანი', 'ფორთოხალი', 'მსხალი'];
+console.log(fruits.length);
+fruits.push('ვაშლი', 'ანანასი');
+fruits.unshift('საზამთო');
+console.log(fruits.length);
+fruits.splice(2,0,'მანგო');
+console.log(fruits);
+fruits.pop();
+fruits.shift();
+console.log(fruits.length);
+
