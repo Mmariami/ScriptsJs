@@ -24,3 +24,11 @@ var dates = [11,27,8,31,9,24,30];
 for (let i = 0; i< dates.length; i++) {
     console.log(dates[i]);
 }
+// 1 task //
+ let cars = ['audi', 'bmw', 'lexus', 'volkswagen', 'porsche'];
+ var x = 0;
+ while (x<cars.length){
+     console.log(cars[x]);
+     x++;
+ }
+
