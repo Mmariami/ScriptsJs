@@ -78,3 +78,21 @@ console.log(fruits.length);
  let NewMassive = CarsMassive.slice(1,4);
  console.log(NewMassive);
 
+// task 10 //
+
+let massive10 =['dato','mariami', 'irakli', 'nini','nika'];
+if (massive10.length==5 && massive10[4]=='nika'){
+    console.log('მასივის რაოდენობა:5, ბოლო ელემენტია ნიკა')
+} else {
+    console.log('რაღაც შეგეშალა მარიამ')
+}
+
+// 10.2 //
+
+let massive11 = ['sandro', 'giga','kristina', 'nini'];
+if (massive11.length==7 || massive11[0]=='sandro'){
+    console.log('მასივში ელემენტების რაოდენობა :7, პირველი ელემენტია სანდრო')
+}
+
+
+
