@@ -46,3 +46,13 @@ for (let n = 0; n < NumbersMassive.length; n++) {
         console.log(NumbersMassive[n]);
     } 
 }
+// task 7 //
+var massive = [5,25,89,120,36];
+massive.push('javascript', 'python');
+console.log(massive); 
+massive.unshift('html','css');
+console.log(massive);
+console.log(massive.length);
+massive.shift();
+massive.pop();
+console.log(massive);
