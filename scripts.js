@@ -11,14 +11,6 @@
  let names = ['name', 25, 50, 'age', 'surname' , [50,500] ];
  console.log(names[5][1]);
 
-// 3 task //
-
-var massive3 = [1,45,55,109,908,704, 88, 703];
-// task 8 //
-
-var fruits = ['orange', 'banana' , 'pear'];
-console.log(fruits.length)
-
 // task 6//
 var dates = [11,27,8,31,9,24,30];
 for (let i = 0; i< dates.length; i++) {
@@ -26,9 +18,15 @@ for (let i = 0; i< dates.length; i++) {
 }
 // 1 task //
  let cars = ['audi', 'bmw', 'lexus', 'volkswagen', 'porsche'];
- var x = 0;
+ var x = 1;
  while (x<cars.length){
      console.log(cars[x]);
      x++;
  }
 
+//  task 2 // 
+
+var saxeli = ['mariami', 'nata', 'kristina', 'ana', 'gio'];
+for (let y =0; y <saxeli.length; y++) if (saxeli[y].length > 3) {
+    console.log (saxeli[y]);
+}
