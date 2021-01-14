@@ -1,3 +1,4 @@
+ // 5 Task //
 
     var person = {
         name : "john" ,
@@ -20,6 +21,6 @@ console.log(fruits.length)
 
 // task 6//
 var dates = [11,27,8,31,9,24,30];
-for (let i = 0; i<7; i++) {
+for (let i = 0; i< dates.length; i++) {
     console.log(dates[i]);
 }
